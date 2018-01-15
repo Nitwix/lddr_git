@@ -58,4 +58,8 @@
 - Joe decides to put Runciter in the moratorium with Ella
 - A chopper brings Joe, Al and Runciter to the moratorium
 - Joe tries to vidphone a precog at Hollis but his coins are *obsolete*
-- to continue... 
+
+## Chapter 8
+- Joe is in a hotel room in Zürich
+- He tries to call but he only hears the voice of Runciter on the phone.
+- Von Vogelsang comes to the hotel and 
