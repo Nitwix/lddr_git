@@ -1,14 +1,7 @@
 # Ubik
 
 # Characters
-- Runciter : president of anti-telepaths firm
-	- intelligent, knows how to manipulate people 
-- Joe Chip : Tests the talents of people with psi abilities 
-	- lives in an unclean flat
-	- doesn't have enough money to pay for his flat
-	- Joe and Runciter seem very close
-- Ashwood : Joe's friend, works for psi firm
-- Pat : has the talent to change the past 
+ - > see presentation 
 
 ## Chapter 1
 - Mr Runciter is the president of a company which prevents telepaths from reading in your mind
@@ -62,4 +55,11 @@
 ## Chapter 8
 - Joe is in a hotel room in Zürich
 - He tries to call but he only hears the voice of Runciter on the phone.
-- Von Vogelsang comes to the hotel and 
+- Von Vogelsang comes to the hotel and tells Joe that they managed to mesure cerebral activity in Runciter's brain but that they couldn't establish communication with him.
+- Joe and von Vogelsang find Wendy Wright's body in a cupboard. She is minified as if she'd died centuries ago.
+- The bomb actually was a "micronic nuclear reaction"
+- "STALE CIGARETTES, OUT-OF-DATE PHONE BOOKS, OBSOLETE MONEY, PUTREFIED FOOD, AD ON MATCHFOLDER" (strange events)
+- there's an ad on a matchfolder, that advertises for a way to make money with Runciter's name on it (p. 76)
+- some inertials have "Runciter money"
+- *explanation : see p. 80*
+- Al and Joe decide to go to Baltimore to test if Runciter money is accepted there
