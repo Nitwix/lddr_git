@@ -75,3 +75,4 @@ Eight of us,’ he said, ‘have what I guess we should call Runciter money,[...
 There’s some force at work producing rapid decay. It’s been at work since – or started with – the blast there on Luna. We already knew that. We also know, or think we know, that another force, a contra-force, is at work, moving things in an opposite direction. Something connected with Runciter. Our money is beginning to have his picture on it. A matchfolder—’
 
 
+## Strange mix between ultra capitalism and people with strange natural abilities 
