@@ -13,7 +13,7 @@
 - He says that Melipone has disappeared //not sure
 - Many people from 'Holis' have disappeared
 - Runciter thinks that it's because all the psis are on a single project
-- The conscience of Jory 'd�teind' sur Ella
+- The conscience of Jory 'düteind' sur Ella
 - Runciter asks that Ella is put in a solitary room
 
 ## Chapter 3
@@ -47,13 +47,13 @@
 - the bomb seems to have aged them (?)
 
 ## Chapter 7
-- the ship lands in Z�rich
+- the ship lands in Zürich
 - Joe decides to put Runciter in the moratorium with Ella
 - A chopper brings Joe, Al and Runciter to the moratorium
 - Joe tries to vidphone a precog at Hollis but his coins are *obsolete*
 
 ## Chapter 8
-- Joe is in a hotel room in Z�rich
+- Joe is in a hotel room in Zürich
 - He tries to call but he only hears the voice of Runciter on the phone.
 - Von Vogelsang comes to the hotel and tells Joe that they managed to mesure cerebral activity in Runciter's brain but that they couldn't establish communication with him.
 - Joe and von Vogelsang find Wendy Wright's body in a cupboard. She is minified as if she'd died centuries ago.
@@ -75,4 +75,8 @@
 - Runciter's physical body is in Zürich but he can be contacted in Des Moines
 - Al and Joe decide they need to go to Des Moines as fast as possible
 - Al and Joe's perception begin to change (Elevator, p.86)
-- 
+- Al feels tired, he goes to the toilets where another message from Runciter is written in Graffiti
+    - JUMP IN THE URINAL AND STAND ON YOUR HEAD // I'M THE ONE THAT'S ALIVE. YOU'RE ALL DEAD.
+- Al thinks that they are in half-life and that Runciter is the only one to have survived the explosion on Luna
+- Al says he's going to die but Joe has to go near the others to survive
+- Joe goes in the conference room but there's no one
