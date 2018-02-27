@@ -13,7 +13,7 @@
 - He says that Melipone has disappeared //not sure
 - Many people from 'Holis' have disappeared
 - Runciter thinks that it's because all the psis are on a single project
-- The conscience of Jory 'déteind' sur Ella
+- The conscience of Jory 'dï¿½teind' sur Ella
 - Runciter asks that Ella is put in a solitary room
 
 ## Chapter 3
@@ -47,13 +47,13 @@
 - the bomb seems to have aged them (?)
 
 ## Chapter 7
-- the ship lands in Zürich
+- the ship lands in Zï¿½rich
 - Joe decides to put Runciter in the moratorium with Ella
 - A chopper brings Joe, Al and Runciter to the moratorium
 - Joe tries to vidphone a precog at Hollis but his coins are *obsolete*
 
 ## Chapter 8
-- Joe is in a hotel room in Zürich
+- Joe is in a hotel room in Zï¿½rich
 - He tries to call but he only hears the voice of Runciter on the phone.
 - Von Vogelsang comes to the hotel and tells Joe that they managed to mesure cerebral activity in Runciter's brain but that they couldn't establish communication with him.
 - Joe and von Vogelsang find Wendy Wright's body in a cupboard. She is minified as if she'd died centuries ago.
@@ -63,3 +63,16 @@
 - some inertials have "Runciter money"
 - *explanation : see p. 80*
 - Al and Joe decide to go to Baltimore to test if Runciter money is accepted there
+
+## Chapter 9
+- Al and Joe buy cigarettes in Baltimore and thus prove that Runciter money is accepted there
+- In the pack of cigarettes, there's a note from Runciter, which says that they need to get in touch
+- **Two pairs of opposing forces: decay vs Runciter**
+- Al buys a tape recorder at random in the shop.
+- They go back to Runciter Associates office (in New York)
+- They make an employee analyze the recorder. He says it's very old (40 years)
+- On the instruction booklet of the tape recorder,  it's written that it was made by Runciter of ZÃ¼rich and that there's a maintenance station where Runciter was born (in Des Moines)
+- Runciter's physical body is in ZÃ¼rich but he can be contacted in Des Moines
+- Al and Joe decide they need to go to Des Moines as fast as possible
+- Al and Joe's perception begin to change (Elevator, p.86)
+- 

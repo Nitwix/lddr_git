@@ -13,8 +13,11 @@
 - Pat : has the talent to change the past
 - Al : big strong man who works for Runciter 
 
-## Main themes & extracts analysis
+## Main themes & 
 -> see below
+
+## Extracts analysis
+- p.87
 
 ## Our opinion about the book
 
@@ -60,7 +63,9 @@ The momentum of the retrograde force is increasing; archaic forms are moving tow
 
 - chapter 9, p. 86
 They were no longer regressing at the same rate,[...]
--> This is what happened to Wendy Wright 
+-> This is what happened to Wendy Wright
+
+--> Analysis : Our capitalist society is maybe devolving insted of evolving (what we usually believe)
 
 ### Runciter related objects appear
 
