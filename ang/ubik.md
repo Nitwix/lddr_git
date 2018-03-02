@@ -80,3 +80,22 @@
 - Al thinks that they are in half-life and that Runciter is the only one to have survived the explosion on Luna
 - Al says he's going to die but Joe has to go near the others to survive
 - Joe goes in the conference room but there's no one
+
+## Chapter 10
+- Joe watches TV: they talk about Runciter's death. The funeral will be held in Des Moines
+- Joe sees an ad on TV: Runciter advertises **Ubik**
+- **Ubik** allows to reverse the decay of things
+- Joe goes to his house to take his free Ubik sample
+- date : 12.09.1939
+- He fetches his Ubik except it's transformed into UBIK LIVER AND KIDNEY BALM
+- He goes to the airport with his 1939 LaSalle
+
+## Chapter 11
+- He exchanges his "ELIXIR OF UBIQUE" against a flight to Des Moines
+- Joe arrives at Des Moines
+- A car comes to take him at the airport
+- He discusses with the driver (of the futur, which Joe knows)
+- Joe arrives at the Simple Shepherd Mortuary -> meets his colleges
+- They discuss about their situation
+- Francy explains the Ubik dream she had.
+
