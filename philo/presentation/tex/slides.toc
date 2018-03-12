@@ -1,8 +1,7 @@
-\beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Definition of the question}{2}{0}{1}
 \beamer@sectionintoc {2}{Why this question?}{7}{0}{2}
-\beamer@sectionintoc {3}{The first answers}{13}{0}{3}
-\beamer@sectionintoc {4}{The greater goals}{18}{0}{4}
-\beamer@sectionintoc {5}{New answers}{26}{0}{5}
-\beamer@sectionintoc {6}{The best worst answer}{31}{0}{6}
-\beamer@sectionintoc {7}{Discussion}{35}{0}{7}
+\beamer@sectionintoc {3}{The first answers}{14}{0}{3}
+\beamer@sectionintoc {4}{The greater goals}{20}{0}{4}
+\beamer@sectionintoc {5}{New answers}{30}{0}{5}
+\beamer@sectionintoc {6}{The best worst answer}{35}{0}{6}
+\beamer@sectionintoc {7}{Discussion}{39}{0}{7}

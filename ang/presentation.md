@@ -63,7 +63,7 @@ They were no longer regressing at the same rate,[...]
 ## Runciter related objects appear
 
 - chapter 8, p. 76
-Pat gave him the matchfolder and, once again, he read the ad. AMAZING OPPORTUNITY FOR ADVANCEMENT TO ALL WHO CAN QUALIFY! Mr Glen Runciter of the Beloved Brethren Moratorium of Zürich, Switzerland, doubled his income within a week[...]
+Pat gave him the matchfoCalls every aspect of our lives into question.lder and, once again, he read the ad. AMAZING OPPORTUNITY FOR ADVANCEMENT TO ALL WHO CAN QUALIFY! Mr Glen Runciter of the Beloved Brethren Moratorium of Zürich, Switzerland, doubled his income within a week[...]
 
 - chapter 8, p. 78
 Eight of us,’ he said, ‘have what I guess we should call Runciter money,[...]
@@ -74,8 +74,6 @@ There’s some force at work producing rapid decay. It’s been at work since �
 
 
 # Strange mix between ultra capitalism and people with strange natural abilities 
-
-
 # What is Ubik?
 - look at each beginning of chapter
 - evolution of what Ubik is may give us hints
