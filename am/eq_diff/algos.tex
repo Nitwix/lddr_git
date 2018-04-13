@@ -1,0 +1,60 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, tabu}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{document}
+
+\begin{center}
+\begin{Huge}
+Méthodes d'approximation d'équations différentielles
+\end{Huge}
+\end{center}
+
+\section{Ordre 1}
+On connait: 
+
+\[
+	\begin{cases}
+		f(x,y)=y'=\dots \\
+		y(x_{0})=y_{0}
+	\end{cases}
+\]
+
+La \textbf{méthode d'Euler} se définit comme suit:
+
+\[
+	\begin{cases}
+		x=x+h\\
+		y=y+h\cdot y'\\
+		y'=f(x,y)
+	\end{cases}
+\]
+
+La \textbf{méthode de Runge} se définit comme suit:
+
+	\vspace{10pt}
+
+	$\begin{tabu}{|l|l|l|}
+	\hline 
+	x=x+h & x_{0} & \dots\\ 
+	\hline 
+	y=y+h\cdot y_{m}' & y_{0} & \dots\\ 
+	\hline 
+	y'=f(x,y) & f(x_{0},y_{0}) & \dots\\ 
+	\hline 
+	x_{m}=x+\frac{h}{2} & x_{0}+\frac{h}{2} & \dots\\ 
+	\hline 
+	y_{m}=y+\frac{h}{2}\cdot y' & y_{0}+\frac{h}{2}\cdot y' & \dots\\ 
+	\hline 
+	y_{m}'=f(x_{m},y_{m}) & f(x_{m},y_{m}) & \dots\\ 
+	\hline 
+	\end{tabu}$
+
+\end{document}
