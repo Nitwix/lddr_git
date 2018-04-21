@@ -70,7 +70,8 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - Nina: This trap was almost certainly organized by Runciter's worst enemy, Hollis.
 - Niels: In the world of Ubik, some people are gifted with some psychological talents such as telepathy (called thelepaths), the power to foresee the future (called precogs), the ability to resurect people from the dead (called resurrectors) and so on. These people are recruted by Hollis to spy on companies or individuals or to interfere with people in a way that is profitable to the person who has paid for the service that Hollis provides.
 - Nina: On the other hand, some people have anti-psy abilities. For each psy ability, there is an anti-psy ability: for example, there are anti-telepaths, anti-precogs and so on. The people with these abilities can cancel the powers of the psis. They are recruited by Runciter Associates and companies who think they are spied upon can pay for protection from Runciter Associates.
-- Niels: But our characters will soon discover that it was more than a simple explosion that they experienced. They soon experience some strange time related issues...
+- Niels: <freedom of thought>
+- Niels: But our characters will soon discover that they were victims of more than a simple explosion. They soon experience some strange time related issues...
 ## Time-related events
 + put badges on
 - Joe: hey, what happened with my cigarettes? They seem to have aged months since the last time I smoked one. Strange... But anyways, we have to call the moratorium in Zurich to announce that we are bringing Runciter.
@@ -82,3 +83,5 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 
 ## Ultra capitalism
 + video suva care
+
+## Ubik theories and Jory
