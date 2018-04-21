@@ -65,7 +65,7 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - botin de téléphone
 - cigarettes
 - ordi avec videos
-
+- bottle: "I am alive, you are dead,..."
 
 # Script
 + explosion video
@@ -87,7 +87,7 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - Pat: Ok, I'll fetch the telephone book. [searches trough the book] The number is 032 196 92 39.
 - Joe: Strange..., the phone doesn't seem to recognize this number. The telephone book must have aged as well.
 + put badges off
-- Nina: that point of book, we had few theories: 2 theories : 1) psy hallucination. never left past 2) 2 realities , bug of timeline because of pat.
+- Nina: at that point of book, we had few theories: 2 theories : 1) psy hallucination. never left past 2) 2 realities , bug of timeline because of pat.
 - Niels: 
 
 
@@ -106,3 +106,8 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 ## Ultra capitalism
 + insert coin to coninue the presentation (gag)
 + video suva care
+
+## Conclusion
++ video:
+    - Bottle: "We are alive, you are dead..."
+    - Runciter: Goodbye Joe, I hope you'll be able to fight Jory and to survive in your half-life as long as you can. I'll miss you Joe, you were a good friend and an excellent employee. [drinks in bottle and reputs it on the table, very visible to the camera]
