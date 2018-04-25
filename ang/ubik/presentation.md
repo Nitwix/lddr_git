@@ -25,42 +25,49 @@
 - botin de téléphone
 - cigarettes
 - ordi avec videos
-- bottle: "I am alive, you are dead,..."
+- bottle: "We are alive, you are dead,..."
 
 # Script
 + explosion video
 - Pat: Oh no, it was a trap!
 - Joe: Runciter is almost dead, what are we gonna do?
++ spaceship_sound
 
 ## Psy explanation
 + put badges off
 - Niels: So our main characters fell into a trap, which is going to greatly influence their future.
 - Nina: This trap was almost certainly organized by Runciter's worst enemy, Hollis.
 - Niels: In the world of Ubik, some people are gifted with some psychological talents such as telepathy (called thelepaths), the power to foresee the future (called precogs), the ability to resurect people from the dead (called resurrectors) and so on. These people are recruted by Hollis to spy on companies or individuals or to interfere with people in a way that is profitable to the person who has paid for the service that Hollis provides.
-- Nina: On the other hand, some people have anti-psy abilities. For each psy ability, there is an anti-psy ability: for example, there are anti-telepaths, anti-precogs and so on. The people with these abilities can cancel the powers of the psis. They are recruited by Runciter Associates and companies who think they are spied upon can pay for protection from Runciter Associates.
-- Niels: aspect of book interesting: means thoughts can be intercepted 
+- Nina: On the other hand, some people have anti-psy abilities. For each psy ability, there is an anti-psy ability: for example, there are anti-telepaths, anti-precogs and so on. The people with these abilities can cancel the powers of the psis. They are recruited by Runciter Associates and companies who think they are spied upon can pay for protection.
+- Niels: aspect of book interesting: it means thoughts can be intercepted 
     - > no freedom of thought: 1984: thought police.
-    - mass surveillance : in a sense the same idea: intimate parts of our lives observed
+    - Nina:  mass surveillance : in a sense the same idea: intimate parts of our lives observed on the internet as well as before by spies or for example the stasi.
+    - Niels: So we see that what was fiction has become real in forms that are maybe a bit less direct than in Ubik.
 
 ## Ultra capitalism
-+ insert coin to coninue the presentation (gag; asssets/insert_coin.wav; assets/coin_sued.wav)
-- shows how capitalism could look like in a few years if it follows the current trend
-- quote chapter 3, p. 26: (appears in the whole book +-) 
++ insert coin to coninue the presentation : asssets/insert_coin.wav;
+- Nina: But I don't have any coin!
++ assets/coin_sued.wav
+- In Ubik, we see how capitalism could look like at its extreme.
+* For the quotes: Niels : Narrator; Nina: Voices
+- quote chapter 3, p. 26: (appears in the whole book +-)
 The door refused to open. It said, ‘Five cents, please.’
-- quote chapter 7, p. 62:
+- quote chapter 7, p. 62: At Zürich airport
 ‘One of these days,’ Joe said wrathfully, ‘people like me will rise up and overthrow you, and the end of tyranny by the homeostatic machine will have arrived. The day of human values and compassion and simple warmth will return, and when that happens someone like myself who has gone through an ordeal and who genuinely needs hot coffee to pick him up and keep him functioning when he has to function will get the hot coffee whether he happens to have a poscred readily available or not.’
-- chapter 8, p. 73
+-> Vocabulary used turns Joe into a machine : "functioning, function"
+- chapter 8, p. 73: In Zürich hotel
 Well, he could take an amphetamine instead; the hotel probably provided them free, as a courtesy.
--> strange: the only free thing in the world is a drug that cuts hunger/excites (?) 
+-> strange: the only free thing in the world is a drug that cuts hunger/excites; Maybe response to stressful life (machine-like life)
 - chapter 8, p. 77:
 ‘Isn’t Walt Disney’s head supposed to be on the fifty-cent piece?’ Sammy said. ‘Either Disney’s,’ Al said, ‘or if it’s an older one, then Fidel Castro’s. Let’s see it.’
-- chapter 9, p. 82
+-> Even money is owned by companies like Disney; Fidel Castro is a bit ironic because he was communist.
+- chapter 9, p. 82: In Baltimore
 The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five cents,’ the checker said.
-- chapter 10, p.94
+-> Cigarettes are very cheap -> no taxes -> ultra-liberal economy
+- chapter 10, p.94: in Joe's conapt
 "in one respect it had improved – it lacked the coin slot, operating obviously toll-free. This aspect was true of all the appliances"
-- almost everything belongs to companies (coins with Walt Disney, private lunar bases)
-- [SuvaRisk Coin Slot](https://youtu.be/d0PzJJOiocY) => not that far from our reality x) 
-- drugs can be found freely and their usage is pretty common. 
+-> Returns to state of nowadays; maybe a criticism of useless run for progress from the author
++ SuvaRisk_coin.mkv => not that far from our reality x) 
 
 ## Time-related events
 + put badges on
@@ -69,18 +76,19 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - Joe: Strange..., the phone doesn't seem to recognize this number. The telephone book must have aged as well.
 + put badges off
 
-### à compléter
 - many occurences of going back in the past like the cars, elevators, clotted milk, wrong phoone numbers...
 - everything regresses 
 - the limit is 1939 
 - those events create a weird sensation, the reader is not comfortable, like Joe. 
 - There is a lot of unexplainable deaths following those events. The deceased body is all dehydrated, like a very old mummy, so we can presume that it's not just the objects that go back in time.
-- It creates a lot of tension. The only way to stop all those events is by using Ubik. Unfortunately, even Ubik goes back in time. //photo de la pub
-- at this point we are not sure whether it's Joe and his coworkers or Runciter who died.
+- It creates a lot of tension. The only way to stop all those events is by using Ubik. Unfortunately, even Ubik goes back in time. 
++ afficher aubikad1.jpg
 
- Nina: at that point of book, we had few theories: 2 theories : 1) psy hallucination. never left past 2) 2 realities , bug of timeline because of pat.
+- Nina: at that point of book, I had few theories: 2 theories : 1) psy hallucination. never left past 2) 2 realities , bug of timeline because of pat.
 
-## Runciter-related events
+## Communication between life and half-life
+- Hey Nina, I'm a bit bored by this presentation... Don't you want to watch TV instead?
+- Yeah..
 + pub "interactive" (video)
 - Runciter: One invisible puff-puff whisk of economically priced Ubik banishes compulsive obsessive fears that the entire world is turning into clotted milk, worn-out tape recorders and obsolete iron-cage elevators, plus other, further, as-yet-unglimpsed manifestations of decay. You see, world deterioration of this regressive type is a normal experience of many half-lifers, especially in the early stages when ties to the real reality are still very strong.
 - [Joe] : But how can that be possible???
@@ -88,22 +96,20 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - [Joe] : Does that mean you can hear and see me?
 - Runciter: Of course, I can’t hear you and see you. This commercial message is on videotape; I recorded it two weeks ago, specifically, twelve days before my death. Inew the bomb blast was coming; I made use of precog talents. Return to your conapt, Mr Chip, and you’ll find a free sample has arrived by mail, a free introductory sample, Mr Chip, that will keep you going until you can buy a regular-size can.
 
-### Communication between life and half-life
+- As we have seen, there seems to be some kind of communication between Runciter (who is thought to be dead) and his associates. 
 - first experience: beginning of book, Runciter communicates with Ella but we don't know what it looks like.
-- When Joe almost died, Runciter helped him. This day, the communication was clear, as a result Joe could easily see and talk with Runciter
 - Begin of chapter 8: Joe hears Runciter's voice on the phone.
 
 - chapter 8, p.76: Ad on matchfolder talks about Runciter; Address of the ad is in Des Moines
 - 8, p.78: runciter money is acceptable (tested in Baltimore)
 - 9, p.85: tape recorder with Runciter's name and adress of production: Des Moines
-- 9, p.87: JUMP IN THE URINAL AND STAND ON YOUR HEAD I’M THE ONE THAT’S ALIVE. YOU’RE ALL DEAD.
+
+- 9, p.87: they're back in NY.  JUMP IN THE URINAL AND STAND ON YOUR HEAD I’M THE ONE THAT’S ALIVE. YOU’RE ALL DEAD.
 
 - Those occurences are hints that Joe and the others died and that they're in half-life. The situation seems to become clearer but there still is a lot of unanswered questions.
-
-<!-- + appel de Runciter "interactif" (audio) -->
+- When Joe almost died, Runciter helped him. This day, the communication was clear, as a result Joe could easily see and talk with Runciter.
 
 ## Ubik theories and Jory
-### à compléter
 
 ### Ubik : 
 - Since the first lines, there is ad for Ubik.
@@ -112,11 +118,22 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - Ubik can cease the effects of going back into time. 
 
 ### Sketch 
--[Joe] : I... I can't do it anymore... 
-- [Joe] : Hold on Joe! Here * sprays Ubik on him*
-- [Joe] : Runciter ? 
+- [Joe] : I... I can't anymore... 
+- [Runciter] : Don't thank me for this. * sprays Ubik on him*
+- [R] : Feel better? It should work on you right away; you should already be getting a reaction.
+- [Joe] : yeah... I'm better...
+- [J] : But are we dead, the rest of us?
+- [Long silence]
+- [R] : Yes.
+- [J] : And what is Ubik?
+- [J] : You don't know that either.
+- [R] : You're right Joe, absolutely right. But I wanted to save your life, that part's true. Hell, I'd like to save all your lives...
+
++ put badges off
+- At that state in the book, we still don't know what Ubik is or who makes it, but we'll give more precision on that a bit later.
 
 ### Truth : Ella and Jory
+
 - at the end, we can attribute all these events to various reasons like those mentioned before and new ones, as we learn that Pat worked for Hollis. (? )
 
 - We discover that everything was caused by Jory, whose mind tries to invade the others. 
@@ -129,7 +146,7 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - She's the creator of Ubik. 
 - We learn that there will always be "Jories" in moratorium so just moving away the body won't make a difference. 
 
-All the theories about Hollis, the time events etc... Were just a distraction. We didn't knoe what to trust anymore or how to figure things as everything is either a creation or another reality. Even what is supposed to be reality is distorted at the end, leaving the reader alone with a weird feeling.
+All the theories about Hollis, the time events etc... Were just a distraction. We didn't know what to trust anymore or how to figure things as everything is either a creation or another reality. Even what is supposed to be reality is distorted at the end, leaving the reader alone with a weird feeling.
 
 
 ## Conclusion
