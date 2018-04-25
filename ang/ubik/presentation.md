@@ -82,7 +82,7 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - those events create a weird sensation, the reader is not comfortable, like Joe. 
 - There is a lot of unexplainable deaths following those events. The deceased body is all dehydrated, like a very old mummy, so we can presume that it's not just the objects that go back in time.
 - It creates a lot of tension. The only way to stop all those events is by using Ubik. Unfortunately, even Ubik goes back in time. 
-+ afficher aubikad1.jpg
++ afficher ubikad1.jpg
 
 - Nina: at that point of book, I had few theories: 2 theories : 1) psy hallucination. never left past 2) 2 realities , bug of timeline because of pat.
 
@@ -96,17 +96,19 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - [Joe] : Does that mean you can hear and see me?
 - Runciter: Of course, I can’t hear you and see you. This commercial message is on videotape; I recorded it two weeks ago, specifically, twelve days before my death. Inew the bomb blast was coming; I made use of precog talents. Return to your conapt, Mr Chip, and you’ll find a free sample has arrived by mail, a free introductory sample, Mr Chip, that will keep you going until you can buy a regular-size can.
 
++ Joe(Nina) puts his badge off
+
 - As we have seen, there seems to be some kind of communication between Runciter (who is thought to be dead) and his associates. 
-- first experience: beginning of book, Runciter communicates with Ella but we don't know what it looks like.
+- first experience where we see some kind of communication: beginning of book, Runciter communicates with Ella but we don't know what it looks like.
 - Begin of chapter 8: Joe hears Runciter's voice on the phone.
 
 - chapter 8, p.76: Ad on matchfolder talks about Runciter; Address of the ad is in Des Moines
-- 8, p.78: runciter money is acceptable (tested in Baltimore)
+- 8, p.78: Runciter money is acceptable (tested in Baltimore)
 - 9, p.85: tape recorder with Runciter's name and adress of production: Des Moines
 
 - 9, p.87: they're back in NY.  JUMP IN THE URINAL AND STAND ON YOUR HEAD I’M THE ONE THAT’S ALIVE. YOU’RE ALL DEAD.
 
-- Those occurences are hints that Joe and the others died and that they're in half-life. The situation seems to become clearer but there still is a lot of unanswered questions.
+- Those occurences are hints that Joe and the others died and that they're in half-life. The situation seems to become clearer but there still are a lot of unanswered questions.
 - When Joe almost died, Runciter helped him. This day, the communication was clear, as a result Joe could easily see and talk with Runciter.
 
 ## Ubik theories and Jory
@@ -118,10 +120,11 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 - Ubik can cease the effects of going back into time. 
 
 ### Sketch 
+* Nina is Joe; Niels is Runciter
 - [Joe] : I... I can't anymore... 
 - [Runciter] : Don't thank me for this. * sprays Ubik on him*
 - [R] : Feel better? It should work on you right away; you should already be getting a reaction.
-- [Joe] : yeah... I'm better...
+- [J] : yeah... I'm better...
 - [J] : But are we dead, the rest of us?
 - [Long silence]
 - [R] : Yes.
@@ -134,10 +137,11 @@ The pack of cigarettes slid from the chute and onto the counter. ‘Ninety-five 
 
 ### Truth : Ella and Jory
 
-- at the end, we can attribute all these events to various reasons like those mentioned before and new ones, as we learn that Pat worked for Hollis. (? )
+- at the end, we can attribute all these events to various reasons like those mentioned before and new ones, as we learn that Pat worked for Hollis. However, Pat seems to have only been a trap to trick the reader into thinking that she was the "bad" character.
 
 - We discover that everything was caused by Jory, whose mind tries to invade the others. 
-- He can create the backgrounds in which the characters evolve and take the apparence of anyone. 
+- This is a very smart scenaristic creation because we realize that we could've known from the beginning but we discover it at once and it makes for a very powerful plot twist. 
+- Jory can create the backgrounds in which the characters evolve and take the apparence of anyone. 
 - In order not to die he eats the soul of the other half-lifers, resulting in their mummy tranformation. 
 - He seems invincible. 
 
