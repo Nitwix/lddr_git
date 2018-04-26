@@ -3,49 +3,49 @@
 	<title>Liste de lecture</title>
 	<trackList>
 		<track>
-			<location>file:///home/niels/Documents/LDDR_2015-2018/lddr_git/ang/ubik/assets/explosion_luna.mp4</location>
+			<location>./explosion_luna.mp4</location>
 			<duration>3135</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>0</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/niels/Documents/LDDR_2015-2018/lddr_git/ang/ubik/assets/spaceship_sound_effect.m4a</location>
+			<location>./spaceship_sound_effect.m4a</location>
 			<duration>6409</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/niels/Documents/LDDR_2015-2018/lddr_git/ang/ubik/assets/insert_coin.wav</location>
+			<location>./insert_coin.wav</location>
 			<duration>2673</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/niels/Documents/LDDR_2015-2018/lddr_git/ang/ubik/assets/coin_sued.wav</location>
+			<location>./coin_sued.wav</location>
 			<duration>2159</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/niels/Documents/LDDR_2015-2018/lddr_git/ang/ubik/assets/SuvaRisk_coin.mkv</location>
+			<location>./SuvaRisk_coin.mkv</location>
 			<duration>60021</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>4</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/niels/Documents/LDDR_2015-2018/lddr_git/ang/ubik/assets/ubik_ad.mp4</location>
+			<location>./ubik_ad.mp4</location>
 			<duration>81445</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>5</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/niels/Documents/LDDR_2015-2018/lddr_git/ang/ubik/assets/goodbye_Joe.mp4</location>
+			<location>./goodbye_Joe.mp4</location>
 			<duration>20657</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>6</vlc:id>

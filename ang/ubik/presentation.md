@@ -1,11 +1,11 @@
-# Themes
+<!-- # Themes
 - Ultra capitalism
 - Strange differences from our world
     - People with psy powers
     - half-life
         - communication between life and half-life
         - objects decaying in half-life
-        - ubik
+        - ubik  -->
 
 <!-- ## People with psy powers
 - psis and anti psis
