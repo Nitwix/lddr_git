@@ -37,14 +37,15 @@
 + put badges off
 - Niels: So our main characters fell into a trap, which is going to greatly influence their future.
 - Nina: This trap was almost certainly organized by Runciter's worst enemy, Hollis.
-- Niels: In the world of Ubik, some people are gifted with some psychological talents such as telepathy (called thelepaths), the power to foresee the future (called precogs), the ability to resurect people from the dead (called resurrectors) and so on. These people are recruted by Hollis to spy on companies or individuals or to interfere with people in a way that is profitable to the person who has paid for the service that Hollis provides.
-- Nina: On the other hand, some people have anti-psy abilities. For each psy ability, there is an anti-psy ability: for example, there are anti-telepaths, anti-precogs and so on. The people with these abilities can cancel the powers of the psis. They are recruited by Runciter Associates and companies who think they are spied upon can pay for protection.
+- Niels: In the world of Ubik, some people are gifted with some psychological talents such as telepathy (called thelepaths), the power to foresee the future (called precogs), the ability to resurect people from the dead (called resurrectors) and so on. These people are recruted by Hollis to spy on companies or individuals or to interfere with people in a way that is profitable to the person who has paid for the service.
+- Nina: On the other hand, some people have anti-psy abilities. For each psy ability, there is an anti-psy ability: for example, there are anti-telepaths, anti-precogs and so on. The people with these abilities can cancel the powers of the psis. They are recruited by Runciter Associates to fight Hollis' psis.
 - Niels: aspect of book interesting: it means thoughts can be intercepted 
     - no freedom of thought: 1984: thought police.
     - Nina:  mass surveillance : in a sense the same idea: intimate parts of our lives observed on the internet as well as before by spies or for example the stasi.
     - Niels: So we see that what was fiction has become real in forms that are maybe a bit less direct than in Ubik.
 
 ## Ultra capitalism
+- Nina: show you smth on computer.
 + insert coin to coninue the presentation : asssets/insert_coin.wav;
 - Nina: But I don't have any coin!
 + assets/coin_sued.wav
@@ -55,6 +56,7 @@
 - quote chapter 7, p. 62: At Zürich airport
     > ‘One of these days,’ Joe said wrathfully, ‘people like me will rise up and overthrow you, and the end of tyranny by the homeostatic machine will have arrived. The day of human values and compassion and simple warmth will return, and when that happens someone like myself who has gone through an ordeal and who genuinely needs hot coffee to pick him up and keep him functioning when he has to function will get the hot coffee whether he happens to have a poscred readily available or not.’
     - Vocabulary used turns Joe into a machine : "functioning, function"
+    - self-service checkout at the Coop
 - chapter 8, p. 73: In Zürich hotel
     > Well, he could take an amphetamine instead; the hotel probably provided them free, as a courtesy.
     - strange: the only free thing in the world is a drug that cuts hunger/excites; Maybe response to stressful life (machine-like life)
