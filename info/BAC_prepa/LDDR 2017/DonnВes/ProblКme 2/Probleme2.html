@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Equilibres chimiques</title>
+		<style>
+			table {
+			    border-collapse: collapse;
+			    width: 100%;
+				text-align: center;
+			}
+
+			th, td {
+			    text-align: center;
+				vertical-align: bottom;
+			    padding: 8px;
+			}
+
+			tr:nth-child(even){background-color: #e2e2e2}
+
+			th {
+				text-align: center;
+				font-weight: bold;
+				font-size: 20px;
+			}
+			
+			h2 {
+			    background-color: #4CAF50;
+			    color: white;
+				text-align: center;
+			}
+			
+			.mole {
+				text-align: center;
+				font-weight: bold;
+				font-size: 16px;	
+			}
+			
+			.carre {
+				text-align: center;
+				height: 20px;
+				width: 20px;
+			}
+			
+			.button {
+				background-color: #909090;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				border-radius: 12px;
+				cursor: pointer;
+			}
+		</style>
+        <script type="text/javascript">
+
+			var vecteur1 = new Array()
+			var vecteur2 = new Array()
+
+			function tanimoto() {
+				var M11 = 0
+				var M10 = 0
+				var M01 = 0
+				var M00 = 0			
+				vecteur1[0]=document.getElementById("vect1_1").value
+				vecteur1[1]=document.getElementById("vect1_2").value
+				vecteur1[2]=document.getElementById("vect1_3").value
+				vecteur1[3]=document.getElementById("vect1_4").value
+				vecteur1[4]=document.getElementById("vect1_5").value
+				vecteur1[5]=document.getElementById("vect1_6").value
+				vecteur1[6]=document.getElementById("vect1_7").value
+				vecteur1[7]=document.getElementById("vect1_8").value
+				vecteur2[0]=document.getElementById("vect1_1").value
+				vecteur2[1]=document.getElementById("vect2_2").value
+				vecteur2[2]=document.getElementById("vect2_3").value
+				vecteur2[3]=document.getElementById("vect2_4").value
+				vecteur2[4]=document.getElementById("vect2_5").value
+				vecteur2[5]=document.getElementById("vect2_6").value
+				vecteur2[6]=document.getElementById("vect2_7").value
+				vecteur2[7]=document.getElementById("vect2_8").value
+				for(i2 = 0; i2 < 8; i2++){
+					if (vecteur1[i2]==1) {
+						if (vecteur2[i2]==1) {
+                            M11 = M11 + 1
+						} else {
+							M10 = M10 + 1
+                        }
+					} else {
+						if (vecteur2[i2]==1) {
+                            M01 = M01 + 1
+						} else {
+							M00 = M00 + 1
+						}
+					}
+				}
+				T = M11/(M11+M10+M01)
+				document.getElementById("res").innerHTML = "Similarité entre mol1 et mol2 : T = "+T
+			}
+			
+			function affichage(id) {
+                selection = document.getElementById(id).value
+				image = "<img src='imgProb2/"+selection+".jpeg'>"
+				document.getElementById("mol1").innerHTML = image
+            }
+			
+        </script>
+    </head>
+	<h2>
+		Retrouver les fragments dans la molécule de gauche.<br>
+		Mettre un 1 dans les cases correspondantes si on trouve le fragment, sinon mettre un 0.
+	</h2>
+    <body>
+		<div id="table">
+		<table>
+			<tr>
+				<td>
+					<select class="mole" id="menuDeroulant1" name="moles" onchange="affichage(this.id)">
+						<option value="diclofenac">Diclofenac</option>
+						<option value="lumiracoxib">Lumiracoxib</option>
+						<option value="erlotinib">Erlotinib</option>
+						<option value="gefitinib">Gefitinib</option>
+					</select>
+					<div id="mol1"><img src="imgProb2/diclofenac.jpeg"></div>
+				</td>
+				<td>
+					<img src="imgProb2/mol1.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol2.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol3.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol4.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol5.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol6.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol7.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol8.jpeg">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input class="carre" id="vect1_1"/>
+				</td>
+				<td>
+					<input class="carre" id="vect1_2"/>
+				</td>
+				<td>
+					<input class="carre" id="vect1_3"/>
+				</td>
+				<td>
+					<input class="carre" id="vect1_4"/>
+				</td>
+				<td>
+					<input class="carre" id="vect1_5"/>
+				</td>
+				<td>
+					<input class="carre" id="vect1_6"/>
+				</td>
+				<td>
+					<input class="carre" id="vect1_7"/>
+				</td>
+				<td>
+					<input class="carre" id="vect1_8"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<select class="mole" id="menuDeroulant2" name="moles" onchange="affichage(this.id)">
+						<option value="diclofenac">Diclofenac</option>
+						<option value="lumiracoxib">Lumiracoxib</option>
+						<option value="erlotinib">Erlotinib</option>
+						<option value="gefitinib">Gefitinib</option>
+					</select>
+					<div id="mol2"><img src="imgProb2/diclofenac.jpeg"></div>
+				</td>
+				<td>
+					<img src="imgProb2/mol1.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol2.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol3.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol4.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol5.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol6.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol7.jpeg">
+				</td>
+				<td>
+					<img src="imgProb2/mol8.jpeg">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input class="carre" id="vect2_1"/>
+				</td>
+				<td>
+					<input class="carre" id="vect2_2"/>
+				</td>
+				<td>
+					<input class="carre" id="vect2_3"/>
+				</td>
+				<td>
+					<input class="carre" id="vect2_4"/>
+				</td>
+				<td>
+					<input class="carre" id="vect2_5"/>
+				</td>
+				<td>
+					<input class="carre" id="vect2_6"/>
+				</td>
+				<td>
+					<input class="carre" id="vect2_7"/>
+				</td>
+				<td>
+					<input class="carre" id="vect2_8"/>
+				</td>
+			</tr>
+		</table>
+		</div>
+		<p class="resultat" id="res">
+			<button class="button" onclick='tanimoto()'>Calcul de T</button>
+		</p>
+    </body>
+</html>

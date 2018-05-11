@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Equilibres chimiques</title>
+		<style>
+			table {
+			    border-collapse: collapse;
+			    width: 100%;
+				text-align: center;
+			}
+
+			th, td {
+			    text-align: center;
+				vertical-align: bottom;
+			    padding: 8px;
+			}
+
+			tr:nth-child(even){background-color: #e2e2e2}
+
+			th {
+				text-align: center;
+				font-weight: bold;
+				font-size: 20px;
+			}
+			
+			h2 {
+			    background-color: #4CAF50;
+			    color: white;
+				text-align: center;
+			}
+			
+			.mole {
+				text-align: center;
+				font-weight: bold;
+				font-size: 16px;	
+			}
+			
+			.carre {
+				text-align: center;
+				height: 20px;
+				width: 20px;
+			}
+			
+			.button {
+				background-color: #909090;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				border-radius: 12px;
+				cursor: pointer;
+			}
+		</style>
+        <script type="text/javascript">
+
+			var vecteur = [1,1,1,0,1,0,0,0]
+			var vecteur1 = new Array
+			var vecteur2 = new Array
+			var idVect
+			var indice1
+			var indice2
+			var diclofenac = [1,1,1,0,1,0,0,0]
+			var lumiracoxib = [1,1,1,1,1,0,0,0]
+			var erlotinib = [0,1,1,1,1,1,1,1]
+			var gefitinib = [0,1,0,0,1,1,1,1]
+			var molecule1 = "diclofenac"
+			var molecule2 = "diclofenac"
+
+			function init() {
+				var afficheTable = "<table>"
+				for(tr = 0; tr < 4; tr++) {
+                    afficheTable = afficheTable + "<tr>"
+					for(td = 0; td < 9; td++) {
+						switch (tr) {
+                            case 0 :
+								afficheTable = afficheTable + "<td>"
+								if(td == 0){
+									afficheTable = afficheTable + "<select class='mole' id='menuDeroulant1' name='moles' onchange='affichage(this.id)'><option value='diclofenac'>Diclofenac</option><option value='lumiracoxib'>Lumiracoxib</option><option value='erlotinib'>Erlotinib</option><option value='gefitinib'>Gefitinib</option></select><div id='mol1'><img src='imgProb2/diclofenac.jpeg'></div>"
+								} else {
+									afficheTable = afficheTable + "<img src='imgProb2/mol" + td + ".jpeg'>"
+								}
+								afficheTable = afficheTable + "</td>"
+								break
+							case 1 :
+								afficheTable = afficheTable + "<td>"
+								if(td == 0){
+									afficheTable = afficheTable + ""
+								} else {
+									afficheTable = afficheTable + "<input class='carre' id='vect1_"+td+"'/>"
+								}
+								afficheTable = afficheTable + "</td>"
+								break
+							case 2 :
+								afficheTable = afficheTable + "<td>"
+								if(td == 0){
+									afficheTable = afficheTable + "<select class='mole' id='menuDeroulant2' name='moles' onchange='affichage(this.id)'><option value='diclofenac'>Diclofenac</option><option value='lumiracoxib'>Lumiracoxib</option><option value='erlotinib'>Erlotinib</option><option value='gefitinib'>Gefitinib</option></select><div id='mol2'><img src='imgProb2/diclofenac.jpeg'></div>"
+								} else {
+									afficheTable = afficheTable + "<img src='imgProb2/mol" + td + ".jpeg'>"
+								}
+								afficheTable = afficheTable + "</td>"
+								break
+							case 3 :
+								afficheTable = afficheTable + "<td>"
+								if(td == 0){
+									afficheTable = afficheTable + ""
+								} else {
+									afficheTable = afficheTable + "<input class='carre' id='vect2_"+td+"'/>"
+								}
+								afficheTable = afficheTable + "</td>"
+								break
+						}
+					}
+                }
+				afficheTable = afficheTable + "</table>"
+				document.getElementById("table").innerHTML = afficheTable
+            }
+			
+			function tanimoto() {
+				//Initialisation de M11, M10 et M01
+				var M11 = 0
+				var M10 = 0
+                //Récupération des deux vecteurs
+				for(i1 = 0; i1 < 8; i1++){
+					indice1 = "vect1_" + (i1+1)
+					indice2 = "vect2_" + (i1+1)
+					vecteur1[i1] = parseInt(document.getElementById(indice1).value)
+					vecteur2[i1] = parseInt(document.getElementById(indice2).value)
+					switch (vecteur1[i1]+vecteur2[i1]) {
+                        case 1:
+							M10 = M10 + 1
+							break
+						case 2:
+							M11 = M11 + 1
+							break
+                    }
+				}
+				T = M11/(M11+M10)
+				document.getElementById("res").innerHTML = "Similarité entre " + molecule1 + " et " + molecule2 + " : T = " + T
+			}
+
+			function affichage(id) {
+                selection = document.getElementById(id).value
+				image = "<img src='imgProb2/"+selection+".jpeg'>"
+				if (id=="menuDeroulant1") {
+                    idImage = "mol1"
+					idVect = "vect1_"
+					molecule1 = selection
+                } else {
+					idImage = "mol2"
+					idVect = "vect2_"
+					molecule2 = selection
+				}
+				document.getElementById(idImage).innerHTML = image
+				// Affichage des valeurs dans les 8 INPUT de la molécule sélectionnée
+				switch (selection) {
+                    case "diclofenac":
+						vecteur = diclofenac
+						break
+					case "lumiracoxib":
+						vecteur = lumiracoxib
+						break
+					case "erlotinib":
+						vecteur = erlotinib
+						break
+					case "gefitinib":
+						vecteur = gefitinib
+						break
+                }
+				for(i2 = 0; i2 < 8; i2++){
+					indice = idVect + (i2+1)
+					document.getElementById(indice).value = vecteur[i2]
+				}
+            }	
+        </script>
+    </head>
+	<h2>
+		Retrouver les fragments dans la molécule de gauche.<br>
+		Mettre un 1 dans les cases correspondantes si on trouve le fragment, sinon mettre un 0.
+	</h2>
+    <body onload="init()">
+		<div id="table"> Ici sera insérée le tableau... </div>
+		<br>
+		<p class="resultat">
+			<button class="button" onclick='tanimoto()'>Calcul de T</button><div id="res"></div>
+		</p>
+    </body>
+</html>

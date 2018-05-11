@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Equilibres chimiques</title>
+		<style>
+			table, td {
+				text-align: center;
+			}
+		</style>
+        <script type="text/javascript">
+
+			//Définitions des variables globales
+		    var ctx
+			var equation
+			var dX
+			var iter
+			var coefR = new Array
+			var coefP = new Array
+			var reactR = new Array
+			var reactP = new Array
+			var concR = new Array
+			var concP = new Array
+
+			function initialiser(){
+				//Initialisation du Canvas
+				ctx = document.getElementById('monCanvas').getContext('2d')
+			}
+			
+			function reaction() {
+				//Initialisation de dX, iter
+				dX = document.getElementById("dx").value
+				iter = 0
+				for(i5 = 0; i5 < 2; i5++){
+					idConcR = "concr" + i5
+					concR[i5] = document.getElementById(idConcR).value
+				}		
+				iteration()
+			}
+
+			function iteration() {
+				iter++
+				for(i5 = 0; i5 < 2; i5++){
+						concR[i5] = concR[i5] - coefR[i5]*dX
+						concP[i5] = concP[i5] + coefP[i5]*dX
+				}
+				dessineTableauAvancement(concR[0], concR[1], concP[0], concP[1])
+				timer = setTimeout(iteration, 100)
+				//Condition d'arrêt des itérations
+				if (concR[0]<0) {
+                    alert("Réactif limitant : " + reactR[0])
+					clearTimeout(timer)           
+				}
+				if (concR[1]<0) {
+                    alert("Réactif limitant : " + reactR[1])
+					clearTimeout(timer)
+                }
+			}
+			
+			function imprimeEquation() {
+				equation = ""
+				concR = [2, 2]
+				concP = [0, 0]
+                //Affichage de l'équation chimique
+				for(i2 = 0; i2 < 2; i2++) {
+					//Réactifs
+					idCoRe = "cr" + i2
+					idRe = "r" + i2
+					coefR[i2] = document.getElementById(idCoRe).value
+					reactR[i2] = document.getElementById(idRe).value
+					var texteTemp = indices(coefR[i2], reactR[i2])
+					equation = equation + texteTemp
+					if (i2 < 1) {
+                        equation = equation + " + "
+                    }
+				}
+				equation = equation + " <img src='fleche.jpg'> "
+				for(j2 = 0; j2 < 2; j2++) {
+					//Produits
+					idCoPr = "cp" + j2
+					idPr = "p" + j2
+					coefP[j2] = document.getElementById(idCoPr).value
+					reactP[j2] = document.getElementById(idPr).value
+					texteTemp = indices(coefP[j2], reactP[j2])
+					equation = equation + texteTemp
+					if (j2 < 1) {
+                        equation = equation + " + "
+                    }
+				}
+				document.getElementById("equ").innerHTML = equation
+				//dessine l'histogramme au temps t=0
+				dessineTableauAvancement(concR[0], concR[1], concP[0], concP[1])
+            }
+	
+			function indices(a, b) {
+				//mise en place des indices dans les formules chimiques
+				texte = a + " "
+				temp = b.split("")
+				verrou = "normal"
+				for (i3 = 0; i3 < temp.length; i3++) {
+					if(temp[i3]=="0" || temp[i3]=="1" || temp[i3]=="2" || temp[i3]=="3" || temp[i3]=="4" || temp[i3]=="5" || temp[i3]=="6" || temp[i3]=="7" || temp[i3]=="8" || temp[i3]=="9"){
+						if (verrou=="normal") {
+							texte = texte + "<sub>" + temp[i3]
+							verrou = "indice"
+						} else {
+							texte = texte + temp[i3]	
+						}
+					} else {
+						if (verrou=="indice") {
+			                texte = texte + "</sub>" + temp[i3]
+							verrou = "normal"
+			            } else{
+							texte = texte + temp[i3]
+						}
+					}
+			    }
+				if (verrou=="indice") {
+			        texte = texte + "</sub>"
+			    }
+			return texte
+			}
+			
+			function dessineTableauAvancement(a, b, c, d) {
+				//Mise à jour des champs INPUT
+				for(i4 = 0; i4 < 2; i4++){
+					idConcR = "concr" + i4
+					idConcP = "concp" + i4
+					//Arrondis à 4 décimales dans les champs INPUT
+					document.getElementById(idConcR).value = Math.round(10000*concR[i4])/10000
+					document.getElementById(idConcP).value = Math.round(10000*concP[i4])/10000
+				}
+				//Dessin de l'histogramme avec l'échelle 1 mol/L = 50 pixels
+				var hr0 = 100-(50*a)
+				var hr1 = 100-(50*b)
+				var hp0 = 100-(50*c)
+				var hp1 = 100-(50*d)
+				ctx.clearRect(0,0,620,100)
+				ctx.beginPath()
+				ctx.strokeStyle="rgb(0,0,0)"
+				ctx.lineWidth=40
+				ctx.moveTo(70,100)
+				ctx.lineTo(70,hr0)
+				ctx.moveTo(230,100)
+				ctx.lineTo(230,hr1)
+				ctx.moveTo(410,100)
+				ctx.lineTo(410,hp0)
+				ctx.moveTo(560,100)
+				ctx.lineTo(560,hp1)
+				ctx.stroke()
+				ctx.closePath()
+            }
+
+        </script>
+    </head>
+    <body onload="initialiser()">
+		<div id="equ">
+			a A + b B <img src="fleche.jpg"> m C + n D
+		</div>
+		<canvas id='monCanvas' width='640' height='100' style="border:1px solid"></canvas>
+		<br>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Concentrations des réactifs &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Concentrations des produits
+		<br>
+		<input id="concr0"/> <input id="concr1"/> &nbsp&nbsp/&nbsp&nbsp <input id="concp0"/> <input id="concp1"/><br>
+		<br>
+		Réactifs :<br>
+		coefficients  /  composés chimiques<br>
+		<input id="cr0"/> <input id="r0" value="A"/><br>
+		<input id="cr1"/> <input id="r1" value="B"/><br>
+		<br>
+		Produits :<br>
+		coefficients  /  composés chimiques<br>
+		<input id="cp0"/> <input id="p0" value="C"/><br>
+		<input id="cp1"/> <input id="p1" value="D"/><br>
+		<br>
+		Itération : dx = <input id="dx"/><br><br>
+		<button onclick='imprimeEquation()'>Equation</button>
+        <button onclick='reaction()'>Lancer l'itération</button>
+		<br><br>
+    </body>
+</html>

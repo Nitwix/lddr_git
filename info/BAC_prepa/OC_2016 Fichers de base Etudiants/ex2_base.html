@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exercice 2</title>
+    <style>
+        div{
+            width:400px;
+            height:100px;
+            font-size: 2em;
+            text-align: center;
+            border:1px solid black;
+        }
+        canvas{
+            width: 400px;
+            height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body onload="prochainTournoi()">
+<canvas id="myCanvas"></canvas>
+<div id="heure"> </div> 
+</br>
+<div id="annonce"> </div>
+
+<script>    
+// 1) DŽfilement
+var listeImg=["atp0.jpg","atp1.jpg","atp2.jpg"]
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+
+// 2) heure
+
+
+// 3) Prochain tournoi
+var x=[{lieu:"Paris",date:"2016-06-04"},{lieu:"Lisbone",date:"2016-06-05"},{lieu:"SŽville",date:"2016-06-10"},{lieu:"Monaco",date:"2016-06-04"}]
+
+function prochainTournoi(){
+
+}
+
+</script>
+
+</body>
+</html>
